@@ -1,1 +1,62 @@
-<h1>Hello Csar!!</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>You Got This!</title>
+	</head>
+    
+    <body>
+	
+		<h1>Connect to Room</h1>
+		<label id="userId"></label>
+		<input type="text" id="enterUserId", placeholder="Enter user Id">
+		<button id="connectButton">Connect</button>
+		<br><br>
+	
+	
+		<h1>Room</h1>
+		
+		<button id="startRoom">Enter room</button>
+		
+		<label>Time </label> <div id="phraseTime"></div>
+	
+		<label>Phrase</label>
+		<div id="phrase"></div>
+		<div id="output"></div>
+		
+		<br>
+		<label>Room Users</label>
+		<li id="roomUsers"></li>
+    
+		<br>
+		<label>Points </label> <div id="points">0</div>
+		<label>Remain </label> <div id="remain"></div>
+		
+		<br>
+		<label>Position </label> <div id="position"></div>
+		<ul id="positions">Positions</ul>
+		
+		<h1>Results</h1>
+		
+		<label>Final position </label> <div id="finalPosition"></div>
+		<ul id="finalPositions">Final positions</ul>
+		
+		<label>Final score </label> <div id="finalScore"></div>
+		
+		<table id="phraseResults">
+			
+			<thead>
+				<tr>
+					<th>Phrase</th>
+					<th>Result</th>
+				</tr>
+			</thead>
+			
+			<tbody></tbody>
+		</table>
+		
+		
+		<script src="script.js"></script>
+	</body>
+</html>
