@@ -1,4 +1,16 @@
 .name-presentation {
 	text-align: center;
 	font-size: 50px;
+	color: blue;
+	margin-bottom: 5px;
+}
+
+.role-presentation {
+	text-align: center;
+	font-size: 25px;
+	font-style: bold;
+}
+
+.role-description {
+	text-align: center;
 }
