@@ -14,3 +14,18 @@
 .role-description {
 	text-align: center;
 }
+
+/* My projects title */
+.projectsList-title-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 50px;
+}
+
+	/* Github logo on one side */
+.projectsList-title-container img {
+	height: 50px;
+}
+
