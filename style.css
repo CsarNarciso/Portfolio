@@ -33,3 +33,26 @@
 	margin-right: 15px;
 }
 
+.project-container {
+	display: flex;
+	align-items: center;
+}
+
+.project-container iframe {
+	margin-right: 50px;
+}
+
+.project-container p {
+	width: 400px;
+	line-height: 2;
+}
+
+.project-container ul {
+	list-style-type: none; /* Remove bullet points */
+}
+
+.project-container li {
+	border: 1px solid black; /* Add border */
+	border-radius: 5px; /* Optional: Add rounded corners */
+	margin: 15px; /* Add separation between tags */
+}
