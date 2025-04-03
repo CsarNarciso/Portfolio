@@ -53,6 +53,40 @@
 
 .project-container li {
 	border: 1px solid black; /* Add border */
-	border-radius: 5px; /* Optional: Add rounded corners */
+	border-radius: 5px; /* Add rounded corners */
 	margin: 15px; /* Add separation between tags */
+}
+
+
+
+.comments-container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.comments-container div {
+	margin-right: 50px;
+	text-align: center;
+	margin:auto;
+}
+
+.comments-container img {
+	border-radius: 100px;
+	height: 100px;
+}
+
+.comment-username {
+	font-style: bold;
+	font-size: 16px;
+}
+
+.comment-text {
+	font-size: 12px;
+	width: 400px;
+}
+
+.comment-quotes {
+	font-style: bold;
+	font-size: 30px;
 }
