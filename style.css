@@ -1,7 +1,8 @@
 .name-presentation {
 	text-align: center;
 	font-size: 50px;
-	color: blue;
+	color: #00B9FF;
+
 	margin-bottom: 5px;
 }
 
@@ -76,17 +77,30 @@
 	height: 100px;
 }
 
-.comment-username {
-	font-style: bold;
-	font-size: 16px;
+.blockquote {
+	box-sizing: border-box;
 }
 
-.comment-text {
-	font-size: 12px;
-	width: 400px;
+.blockquote__text {
+	margin-left: 20px;	
+	font-size: 13px;
+	font-style: italic;
+	max-width: 300px;
+	height: 70px;
+	border: 1px solid #F0F0F0;
+	border-left-width: 20px;
+	overflow-y: scroll;
 }
 
-.comment-quotes {
+.blockquote__cite { 
+	font-size: 15px;
 	font-style: bold;
-	font-size: 30px;
+	text-align: right;
 }
+
+.blockquote__cite::before {
+	content: "\2014"; /* Long  slash */
+	font-size: 15px;
+	font-style: bold;
+}
+
