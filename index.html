@@ -14,104 +14,181 @@
     <body>
 	
 	
-		<h1 class="name-presentation">Cesar Pozol Narciso</h1>
-		<div class="role-presentation">Software Developer</div>
-		<div class="role-description">I started developing when I was 15 years old. Im passionate about creating my own project ideas!</div>
-		
-		
-		
-		
-		<button id="projectsListTitleBtn" class="projectsList-title-container">
+	
+	
+		<h1 class="name__presentation">Cesar Pozol Narciso</h1>
+		<div class="role__presentation">Software Developer</div>
+		<div class="role__description">I started developing when I was 15 years old. Im passionate about creating my own project ideas!</div>
+	
+	
+	
+	
+	
+	
+		<div class="project__container">
 			
-			<img src="Images/githubLogo.png" alt="Github Logo">
-			My projects!
+			<h1 class="project__title">Chat Web with Microservices</h1>		
 			
-		</button>
-		
-		
-		
-		<h1>Simracing Telemetry Breathing Simulation</h1>
-		
-		<div class="project-container">
-			
-			<iframe width="420" height="315"
-				src="hhttps://www.youtube.com/embed/fUORY-CTSMo">
-			</iframe>
-			
-			<p>
-				Intended to work with a big range of simracing games.
-				For the moment, it is just being tested with GTR2 game. 
-				It simulates driver exhaustion (BPM and RR) based on G forces levels, playing breath and heartbeat sounds dynamically. 
-				The creator of Crew chief Software shared with me his code to access the real GTR2 shared memory structure.
-			</p>
-			
-			<ul>
-				<li>Reverse Engineering</li>
-				<li>C# Console</li>
-				<li>Shared Memory</li>
-				<li>OPP</li>
-				<li>NAudio</li>
-			</ul>
-		</div>
-		
-		<div class="comments-container">
-			
-			<div>
-				<img src="Images/DriverLife/Comments/profile1.png">
-					
-				<blockquote class="blockquote">
-					
-					<p class="blockquote__text">
-						Very cool, good work. I can see how that would up the immersion. 
-						That's really clever. 
-						It reminds me of the immersion elements in Shift 2 Unleashed.
-					</p>
-					
-					<p class="blockquote__cite">
-						Shovas
-					</p>
-					
-				</blockquote>
-			</div>
-			
-			<div>
-				<img src="Images/DriverLife/Comments/profile2.jpg">
+			<div class="project__content">
 				
-				<blockquote class="blockquote">
+				<div class="project__presentation">
+					<img src="https://raw.githubusercontent.com/CsarNarciso/Assets/refs/heads/main/OLD%20Final%20Chat%20Web%20System%20Design.png">
+				</div>
+				
+				<p class="project__description">
+					Focused on follow real world practices, architectures and requiriments (user experience, asyncronous communication avoiding tigh-coupling, performance, etc).
+				</p>
+				
+				<ul class="project__stack">
+					<li>Java</li>
+					<li>Spring Boot</li>
+					<li>JPA, Hibernate</li>
+					<li>Feign Client</li>
+					<li>JUnit, WireMock</li>
+					<li>WebSockets, SockJs</li>
+					<li>REST</li>
+					<li>Kafka</li>
+					<li>PostgreSQL, Redis</li>
+					<li>System Design</li>
+				</ul>
+			</div>
+		</div>
+	
+	
+	
+	
+		<div class="project__container">
+			
+			<h1 class="project__title">Simracing Telemetry Breathing Simulation</h1>		
+			
+			<div class="project__content">
+				
+				<div class="project__presentation">
+					<iframe
+						src="https://www.youtube.com/embed/fUORY-CTSMo">
+					</iframe>
+				</div>
+				
+				<p class="project__description">
+					Intended to work with a big range of simracing games.
+					For the moment, it is just being tested with GTR2 game. 
+					It simulates driver exhaustion (BPM and RR) based on G forces levels, playing breath and heartbeat sounds dynamically. 
+					The creator of Crew chief Software shared with me his code to access the real GTR2 shared memory structure.
+				</p>
+				
+				<ul class="project__stack">
+					<li>Reverse Engineering</li>
+					<li>C# Console</li>
+					<li>Shared Memory</li>
+					<li>OPP</li>
+					<li>NAudio</li>
+				</ul>
+			</div>
+			
+			<div class="comments__container">
+				
+				<div>
+					<img src="Images/DriverLife/Comments/profile1.png">
+						
+					<blockquote class="blockquote">
+						
+						<p class="blockquote__text">
+							Very cool, good work. I can see how that would up the immersion. 
+							That's really clever. 
+							It reminds me of the immersion elements in Shift 2 Unleashed.
+						</p>
+						
+						<p class="blockquote__cite">
+							Shovas
+						</p>
+						
+					</blockquote>
+				</div>
+				
+				<div>
+					<img src="Images/DriverLife/Comments/profile2.jpg">
 					
-					<p class="blockquote__text">
-						I just wanted to say that even though those effects are not my thing, 
-						I am impressed with the quality of your work, I think a lot of attention 
-						to details went into this. Good luck with your effort and I hope it gives
-						you joy along the way.
-					</p>
-					
-					<p class="blockquote__cite">
-						The Iron Wolf
-					</p>
-					
-				</blockquote>
+					<blockquote class="blockquote">
+						
+						<p class="blockquote__text">
+							I just wanted to say that even though those effects are not my thing, 
+							I am impressed with the quality of your work, I think a lot of attention 
+							to details went into this. Good luck with your effort and I hope it gives
+							you joy along the way.
+						</p>
+						
+						<p class="blockquote__cite">
+							The Iron Wolf
+						</p>
+						
+					</blockquote>
+				</div>
 			</div>
 		</div>
 		
-		<h1>Random Song Player</h1>
-		<div>Reads all music files inside a directory. Plays random songs decreasing volume before play next song, increasing back volume..</div>
-		<div>C# Console, NAudio.</div>
 		
-		<h1>You Got This!</h1>
-		<div>Language Learning App. Simple web site to practice pronunciation. It provides phrases you can speak so that it recognizes what you say and score you.</div>
-		<div>JavaScript. Mozilla Web Speach API. Window Speach Synstesis API.</div>
+		<div class="project__container">
+			
+			<h1 class="project__title">Random Song Player</h1>		
+			
+			<div class="project__content">
+				
+				<div class="project__presentation">
+					<img src="https://th.bing.com/th/id/R.9015ddd911dbc388edacc492768d51d6?rik=dGS602%2bid75mBQ&pid=ImgRaw&r=0">
+				</div>
+				
+				<p class="project__description">
+					Reads all music files inside a directory. Plays random songs decreasing volume before play next song, increasing back volume.
+				</p>
+				
+				<ul class="project__stack">
+					<li>C#</li>
+					<li>NAudio</li>
+				</ul>
+			</div>
+		</div>
 		
-		<h1>Chat with Microservices</h1>
-		<div>Focused on follow real world practices, architectures and requiriments (user experience, asyncronous communication avoiding tigh-coupling, performance, etc)</div>
-		<div>Java, Spring Boot, JPA, Hibernate, Cloud, Feign, JUnit, WireMock, WebSockets, REST, Kafka, PostgreSQL, H2 DB, Redis, System Design</div>
+	
+		<div class="project__container">
+			
+			<h1 class="project__title">You Got This!</h1>		
+			
+			<div class="project__content">
+				
+				<div class="project__presentation">
+					<img src="https://tse1.mm.bing.net/th/id/OIP.cTtWxH3CPuTzfkxRXfbyoQHaEK?rs=1&pid=ImgDetMain">
+				</div>
+				
+				<p class="project__description">
+					Language Learning App. Simple web site to practice pronunciation. It provides phrases you can speak so that it recognizes what you say and score you..
+				</p>
+				
+				<ul class="project__stack">
+					<li>JavaScript</li>
+					<li>Mozilla Web Speach API</li>
+					<li>Window Speach Synstesis API</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
 		<a href="https://github.com/CsarNarciso/Chat-Web">Github source code</a>
-		<img src="https://raw.githubusercontent.com/CsarNarciso/Assets/refs/heads/main/OLD%20Final%20Chat%20Web%20System%20Design.png">
 	
 		<h1>Contact me</h1>
 		<img src="Images/profilePresentation.png" height="200px">
 		<a href="mailto:pozolcnarciso@gmail.com">Email</a>
 		<a href="https://www.linkedin.com/in/cesar-pozol-narciso-b48727180/">LinkedIn</a>
+		
+		<button id="projectsListTitleBtn" class="projectsList__title__container">
+			
+			<img src="Images/githubLogo.png" alt="Github Logo">
+			My projects!
+			
+		</button>
 		
 	</body>
 	
