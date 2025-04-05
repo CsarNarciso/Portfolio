@@ -57,6 +57,8 @@
 
 .project__stack {
 	list-style-type: none; /* Remove bullet points */
+	max-height: 250px;
+	overflow-y: scroll; 
 }
 
 .project__stack li {
