@@ -141,16 +141,30 @@ body {
 	margin-right: 15px;
 }
 
+
+
 .contactMe__container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 70px;
 	margin-bottom: 80px;
+	margin-top: 80px;
 }
 
-.contactMe__container i {
+.contactMe__container img {
+	width: 500px;
+	height: 500px;
+}
+
+
+.contactMe__icons__container {
+	position: absolute;
+	font-size: 70px;
+}
+
+.contactMe__icons__container i {
 	margin-right: 50px;
+	position: relative;
 }
 
 .linkedin__icon {
