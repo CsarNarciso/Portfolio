@@ -13,6 +13,7 @@ body {
 	text-align: center;
 	font-size: 25px;
 	font-style: bold;
+	color: #D90247;
 }
 
 .role__description {
@@ -138,4 +139,30 @@ body {
 .projectsList__title__container img {
 	height: 50px;
 	margin-right: 15px;
+}
+
+.contactMe__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 70px;
+	margin-bottom: 80px;
+}
+
+.contactMe__container i {
+	margin-right: 50px;
+}
+
+.linkedin__icon {
+	color: #088AEA;
+	cursor: pointer;
+}
+
+.email__icon {
+	color: #D90247;
+	cursor: pointer;
+}
+
+.github__icon {
+	cursor: pointer;
 }
