@@ -1,7 +1,10 @@
+body {
+	background-color: #F9F9F9;
+}
+
 .name__presentation {
 	text-align: center;
 	font-size: 50px;
-	color: #00B9FF;
 	margin-bottom: 5px;
 }
 
@@ -19,6 +22,9 @@
 
 .project__container {
 	margin-top: 60px;
+	background-color: #F5EFEF;
+	border: 2px solid #F5EFEF;
+	border-radius: 20px;
 }
 
 .project__title {
@@ -30,24 +36,20 @@
 	display: flex;
 	align-items: center;
 	margin-left: 60px;
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 }
 
 
 .project__presentation img {
-	width: 420px;
-	height: 315px;
+	max-width: 450px;
+	max-height: 450px;
 	margin-right: 50px;
-	border: 1px solid black;
-	border-left-width: 30px;
 }
 
-.project__presentation iframe {
-	width: 420px;
-	height: 315px;
+.project__presentation video {
+	max-width: 450px;
+	max-height: 450px;
 	margin-right: 50px;
-	border: 1px solid black;
-	border-left-width: 30px;
 }
 
 .project__description {
@@ -62,9 +64,13 @@
 }
 
 .project__stack li {
-	border: 1px solid black; /* Add border */
-	border-radius: 5px; /* Add rounded corners */
+	border: 2px solid black; /* Add border */
+	border-radius: 10px; /* Add rounded corners */
 	margin: 15px; /* Add separation between tags */
+	background-color: #79D873;
+	text-align: center;
+	font-style: bold;
+	color: white;
 }
 
 
