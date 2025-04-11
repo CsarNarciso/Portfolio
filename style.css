@@ -53,6 +53,51 @@ body {
 	margin-right: 50px;
 }
 
+
+.projectAvailabilityTags__container {
+	display: flex;
+	align-items: center;
+}
+
+.projectAvailabilityTags__container i {
+	display: flex;
+	align-items: center;
+	margin-right: 8px;
+	
+	border: 2px solid black;
+	border-radius: 15px;
+	color: white;
+	cursor: pointer;
+}
+
+.projectAvailabilityTags__container .noAvailable{
+	opacity: 30%;
+	cursor: default;
+}
+
+.projectAvailabilityTags__container p {
+	margin-left: 5px;
+	margin-right: 12px;
+	font-size: 8px;
+}
+
+.website__icon {
+	background-color: #bb73d8;
+}
+
+.download__icon {
+	background-color: #73d8b5;
+}
+
+.sourceCode__icon {
+	background-color: #d8c773;
+}
+
+.tryItOut__icon {
+	background-color: #d87373;
+}
+
+
 .project__description {
 	width: 400px;
 	line-height: 2;
