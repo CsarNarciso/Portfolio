@@ -28,11 +28,8 @@ window.onload = function() {
 		window.location.href = "https://github.com/CsarNarciso/Chat-Web";	
 	}
 	
+	
 	document.getElementById('driverLifeProjectAvailabilityTags').querySelector('.website__icon ').onclick = function() {
 		window.location.href = "https://trackaholics.forumotion.com/t9278-i-want-to-code-an-app-for-gtr2-how-to-access-game-telemetry-data";	
-	}
-	
-	document.getElementById('driverLifeProjectAvailabilityTags').querySelector('.download__icon ').onclick = function() {
-		window.location.href = "https://www.mediafire.com/file/rj86k0f3m2uumye/DriverLife.zip/file";	
 	}
 };
