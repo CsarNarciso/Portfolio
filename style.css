@@ -189,27 +189,36 @@ body {
 
 
 .contactMe__container {
+	text-align: center;
+	
+	margin-bottom: 150px;
+	margin-top: 150px;
+}
+
+/* .contactMe__container img { */
+	/* width: 500px; */
+	/* height: 500px; */
+/* } */
+
+
+.contactMe__container p {
+	font-style: bold;
+	font-size: 20px;
+	margin-left: -48px;
+}
+
+.contactMe__icons__container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 80px;
-	margin-top: 80px;
-}
-
-.contactMe__container img {
-	width: 500px;
-	height: 500px;
-}
-
-
-.contactMe__icons__container {
-	position: absolute;
+	/* position: absolute; */
+	
 	font-size: 70px;
 }
 
 .contactMe__icons__container i {
 	margin-right: 50px;
-	position: relative;
+	/* position: relative; */
 }
 
 .linkedin__icon {
