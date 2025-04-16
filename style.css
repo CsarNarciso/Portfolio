@@ -82,19 +82,19 @@ body {
 }
 
 .website__icon {
-	background-color: #bb73d8;
-}
-
-.download__icon {
-	background-color: #73d8b5;
-}
-
-.sourceCode__icon {
 	background-color: #d8c773;
 }
 
-.tryItOut__icon {
+.about__icon {
 	background-color: #d87373;
+}
+
+.sourceCode__icon {
+	background-color: #73d8b5;
+}
+
+.tryItOut__icon {
+	background-color: #bb73d8;
 }
 
 
