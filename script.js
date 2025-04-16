@@ -29,6 +29,11 @@ window.onload = function() {
 	}
 	
 	
+	document.getElementById('randomSongPlayerProjectAvailabilityTags').querySelector('.sourceCode__icon ').onclick = function() {
+		window.location.href = "https://github.com/CsarNarciso/Random-Song-Player";	
+	}
+	
+	
 	document.getElementById('driverLifeProjectAvailabilityTags').querySelector('.about__icon ').onclick = function() {
 		window.location.href = "https://trackaholics.forumotion.com/t9278-i-want-to-code-an-app-for-gtr2-how-to-access-game-telemetry-data";	
 	}
