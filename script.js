@@ -29,7 +29,7 @@ window.onload = function() {
 	}
 	
 	
-	document.getElementById('driverLifeProjectAvailabilityTags').querySelector('.website__icon ').onclick = function() {
+	document.getElementById('driverLifeProjectAvailabilityTags').querySelector('.about__icon ').onclick = function() {
 		window.location.href = "https://trackaholics.forumotion.com/t9278-i-want-to-code-an-app-for-gtr2-how-to-access-game-telemetry-data";	
 	}
 };
