@@ -37,6 +37,9 @@ window.onload = function() {
 	document.getElementById('youGotThisProjectAvailabilityTags').querySelector('.tryItOut__icon ').onclick = function() {
 		window.location.href = "https://csarnarciso.github.io/You-Got-This/";	
 	}
+	document.getElementById('youGotThisProjectAvailabilityTags').querySelector('.sourceCode__icon').onclick = function() {
+		window.location.href = "https://github.com/CsarNarciso/You-Got-This/";	
+	}
 	
 	
 	document.getElementById('driverLifeProjectAvailabilityTags').querySelector('.about__icon ').onclick = function() {
