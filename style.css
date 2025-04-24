@@ -214,55 +214,96 @@ body {
 
 
 
-/* Responsive */
-@media screen and (max-width: 768px){
-	
-	body {
-		font-size: 3vw;
-	}
-	
-	
-	.project__title {
-		text-align: center;
-		margin: 0;
-	}
-	
-	.project__content {
-		text-align: center;
-		display: block;
-	}
-	
-	.project__presentation img {
-		max-width: 75%;
-	}
-	
-	.project__description {
-		text-align: center;
-		margin: 0;
-		font-size: 2vw;
-	}
-	
-	.project__stack {
-		text-align: center;
-		margin: 0;
-		width: 280px;
-	}
-		
-	.project__stack li {
-	}
 
 
+
+
+
+/* Responsive for tablets and mobile devices */
+@media (max-width: 768px) {
+	
+
+    .name__presentation {
+        font-size: 35px;
+    }
+
+    .role__presentation {
+        font-size: 20px;
+    }
+
+
+	
+	.projects__container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 20px; /* prevents touching screen edges */
+	}
+	
+    .project__title {
+		text-align: center;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .project__content {
+		display: flex;
+		flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+	.project__presentation img,
 	.project__presentation video {
-		max-width: 85%;
-	}
-		
-
-	.comments__container img {
-		height: 90px;
+		width: 100%;
+		max-width: 450px;
+		height: auto;
 	}
 
-	.blockquote__text {
+    .project__description {
+		text-align: center;
+        font-size: 14px;
+        width: 100%;
+    }
+	
+	.projectMiddle__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+    .project__stack {
+		max-height: 170px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .project__stack li {
+        margin: 10px;
+    }
+
+	
+	
+    .blockquote {
+		width: 150px;
+		margin-right:50px;
+    }
+	
+    .blockquote__text {
 		font-size: 2vw;
 	}
+
+
+    .contactMe__container {
+        font-size: 18px;
+		gap: 20px;
+		margin: 100px 0;
+        margin-left: 0;
+    }
+
+    .contactMe__icons__container {
+        font-size: 50px;
+    }
 
 }
