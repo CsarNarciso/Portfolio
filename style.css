@@ -169,24 +169,6 @@ body {
 
 
 
-/* My projects title */
-.projectsList__title__container {
-	display: flex;
-	align-items: center;
-	margin: auto;
-	background-color: white;
-	border: none;
-	font-size: 35px;
-	cursor: pointer;
-	margin-top: 40px;
-}
-
-		/* Github logo on one side */
-.projectsList__title__container img {
-	height: 50px;
-	margin-right: 15px;
-}
-
 
 
 .contactMe__container {
@@ -196,11 +178,6 @@ body {
 	margin-top: 150px;
 	margin-left: 90px;
 }
-
-/* .contactMe__container img { */
-	/* width: 500px; */
-	/* height: 500px; */
-/* } */
 
 
 .contactMe__container p {
@@ -213,14 +190,12 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* position: absolute; */
 	
 	font-size: 70px;
 }
 
 .contactMe__icons__container i {
 	margin-right: 50px;
-	/* position: relative; */
 }
 
 .linkedin__icon {
@@ -235,4 +210,59 @@ body {
 
 .github__icon {
 	cursor: pointer;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 768px){
+	
+	body {
+		font-size: 3vw;
+	}
+	
+	
+	.project__title {
+		text-align: center;
+		margin: 0;
+	}
+	
+	.project__content {
+		text-align: center;
+		display: block;
+	}
+	
+	.project__presentation img {
+		max-width: 75%;
+	}
+	
+	.project__description {
+		text-align: center;
+		margin: 0;
+		font-size: 2vw;
+	}
+	
+	.project__stack {
+		text-align: center;
+		margin: 0;
+		width: 280px;
+	}
+		
+	.project__stack li {
+	}
+
+
+	.project__presentation video {
+		max-width: 85%;
+	}
+		
+
+	.comments__container img {
+		height: 90px;
+	}
+
+	.blockquote__text {
+		font-size: 2vw;
+	}
+
 }
