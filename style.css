@@ -16,9 +16,6 @@ body {
 	color: #D90247;
 }
 
-.role__description {
-	text-align: center;
-}
 
 
 .project__container {
@@ -126,19 +123,25 @@ body {
 .comments__container {
 	display: flex;
 	align-items: center;
-	flex-direction: row;
+	justify-content: center;
 }
 
-.comments__container div {
-	margin-right: 50px;
-	text-align: center;
-	margin:auto;
+.comment__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.comments__container img {
+.comment__container img {
 	border-radius: 100px;
 	height: 100px;
 }
+
+
+
+
+
 
 .blockquote {
 	box-sizing: border-box;
@@ -229,7 +232,19 @@ body {
 
     .role__presentation {
         font-size: 20px;
-    }
+    }	
+		
+	.role__description {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.role__description p {
+		text-align: center;
+		width: 400px;
+		font-size: 3vw;
+	}
 
 
 	
@@ -262,7 +277,7 @@ body {
 
     .project__description {
 		text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         width: 100%;
     }
 	
@@ -272,28 +287,52 @@ body {
 		align-items: center;
 		text-align: center;
 	}
-
-    .project__stack {
-		max-height: 170px;
-        justify-content: center;
-        padding: 0;
-    }
-
-    .project__stack li {
-        margin: 10px;
-    }
-
 	
+	.projectAvailabilityTags__container i {
+		margin: auto 3px;
+	}
 	
-    .blockquote {
-		margin-right: 50px;
-		width: 130px;
-    }
-	
-    .blockquote__text {
-		font-size: 2vw;
+	.projectAvailabilityTags__container p {
+		font-size: 6px;
 	}
 
+    .project__stack {
+		display: none;
+	}
+
+
+
+
+	.comments__container {
+	  display: flex;
+	  flex-direction: column;
+	}
+	
+	.comment__container {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.comment__container img {
+		width: 100%;
+		max-width: 70px;
+		height: auto;
+	}
+	
+	.blockquote {
+		margin: 0;
+	}
+	
+	.blockquote__text {
+	  font-size: 11px;
+	}
+	
+	.blockquote__cite {
+	  font-size: 11px;
+	}
+
+	
+	
 
     .contactMe__container {
         font-size: 18px;
@@ -301,7 +340,7 @@ body {
 		margin: 100px 0;
         margin-left: 0;
     }
-
+	
     .contactMe__icons__container {
         font-size: 50px;
     }
