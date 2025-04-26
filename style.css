@@ -16,6 +16,16 @@ body {
 	color: #D90247;
 }
 
+.role__description {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.role__description p {
+	margin-bottom: -25px;
+}
+
 
 
 .project__container {
@@ -124,6 +134,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 200px;
 }
 
 .comment__container {
@@ -138,16 +149,7 @@ body {
 	height: 100px;
 }
 
-
-
-
-
-
-.blockquote {
-	box-sizing: border-box;
-}
-
-.blockquote__text {
+.comment__text {
 	margin-left: 20px;	
 	font-size: 13px;
 	font-style: italic;
@@ -158,13 +160,16 @@ body {
 	overflow-y: scroll;
 }
 
-.blockquote__cite { 
+.comment__cite { 
+	opacity: 70%;
+	margin-top: -10px;
+	margin-right: 20px;
 	font-size: 15px;
 	font-style: bold;
 	text-align: right;
 }
 
-.blockquote__cite::before {
+.comment__cite::before {
 	content: "\2014"; /* Long  slash */
 	font-size: 15px;
 	font-style: bold;
@@ -175,30 +180,24 @@ body {
 
 
 .contactMe__container {
-	text-align: center;
-	
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	margin-bottom: 150px;
 	margin-top: 150px;
-	margin-left: 90px;
-}
-
-
-.contactMe__container p {
-	font-style: bold;
-	font-size: 20px;
-	margin-left: -50px;
 }
 
 .contactMe__icons__container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
-	font-size: 70px;
+	font-size: 100px;
+	gap: 50px;
 }
 
-.contactMe__icons__container i {
-	margin-right: 50px;
+.contactMe__container p {
+	margin-right: -45px;
 }
 
 .linkedin__icon {
@@ -215,6 +214,11 @@ body {
 	cursor: pointer;
 }
 
+.contactMe__container p {
+	font-style: bold;
+	font-size: 20px;
+	margin-left: -50px;
+}
 
 
 
@@ -222,8 +226,8 @@ body {
 
 
 
-/* Responsive for tablets and mobile devices */
-@media (max-width: 768px) {
+/* Responsive mobile devices */
+@media (max-width: 1000px) {
 	
 
     .name__presentation {
@@ -234,12 +238,6 @@ body {
         font-size: 20px;
     }	
 		
-	.role__description {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
 	.role__description p {
 		text-align: center;
 		width: 400px;
@@ -282,6 +280,7 @@ body {
     }
 	
 	.projectMiddle__container {
+		margin-top: 10px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -297,38 +296,44 @@ body {
 	}
 
     .project__stack {
-		display: none;
+		margin-top: -12px;
+		margin-bottom: -8px;
+		padding: 0;
 	}
 
 
 
 
-	.comments__container {
-	  display: flex;
-	  flex-direction: column;
+	 .comments__container {
+		margin-top: -15px;
+		display: flex;
+		flex-direction: column;
+		gap: 0;
 	}
 	
-	.comment__container {
+	.comment__container{
+		border: 1px solid white;
+		margin-bottom: 10px;
 		display: flex;
 		flex-direction: row;
 	}
 	
 	.comment__container img {
+		display: inline-block;
+		vertical-align: middle;
 		width: 100%;
 		max-width: 70px;
 		height: auto;
 	}
 	
-	.blockquote {
-		margin: 0;
+	.comment__text {
+		overflow-y: hidden;
+		max-width: 250px;
+		font-size: 11px;
 	}
 	
-	.blockquote__text {
-	  font-size: 11px;
-	}
-	
-	.blockquote__cite {
-	  font-size: 11px;
+	.comment__cite {
+		font-size: 11px;
 	}
 
 	
@@ -336,9 +341,8 @@ body {
 
     .contactMe__container {
         font-size: 18px;
-		gap: 20px;
-		margin: 100px 0;
-        margin-left: 0;
+		margin-top: 50px;
+		margin-bottom: 20px;
     }
 	
     .contactMe__icons__container {
