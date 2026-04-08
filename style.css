@@ -17,6 +17,7 @@ body {
 }
 
 .role__description {
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
